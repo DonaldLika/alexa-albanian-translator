@@ -1,0 +1,13 @@
+version: 2
+machine:
+  node:
+    version: 10.16.3
+  npm:
+    version: 6.9.0
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8
+    working_directory: ~/alexa-albanian-translator
+    steps:
+      - checkout
