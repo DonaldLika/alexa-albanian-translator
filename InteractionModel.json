@@ -19,7 +19,7 @@
       "name": "AMAZON.NoIntent"
     },
     {
-      "name": "TranslateInAlbanian",
+      "name": "TranslateInAlbanianIntent",
       "slots": [
         {
           "name": "QUERY",
