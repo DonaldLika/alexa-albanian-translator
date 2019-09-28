@@ -1,0 +1,43 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "AlTranslate",
+        "intents": [
+          {
+            "name": "AMAZON.HelpIntent"
+          },
+          {
+            "name": "AMAZON.StopIntent"
+          },
+          {
+            "name": "AMAZON.RepeatIntent"
+          },
+          {
+            "name": "AMAZON.CancelIntent"
+          },
+          {
+            "name": "AMAZON.YesIntent"
+          },
+          {
+            "name": "AMAZON.NoIntent"
+          },
+          {
+            "name": "TranslateInAlbanian",
+            "slots": [
+              {
+                "name": "QUERY",
+                "type": "AMAZON.SearchQuery"
+              }
+            ],
+            "samples": [
+              "translate {QUERY}",
+              "perkthe {QUERY}",
+              "What does {QUERY} mean in albanian",
+              "{QUERY} in albanian"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  
