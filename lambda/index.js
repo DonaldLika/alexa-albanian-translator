@@ -1,6 +1,6 @@
 import {welcomeMessage,outputMessage,helpMeMessage,states,killMessage,shutdownMessage} from './constants';
-
-const Alexa = require('ask-sdk');
+import Alexa from 'ask-sdk';
+import TranslationService from './service'
 
 let alexa;
 
