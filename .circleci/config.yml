@@ -11,3 +11,9 @@ jobs:
     working_directory: ~/alexa-albanian-translator
     steps:
       - checkout
+      - run:
+          name: Install lambda dependencies
+          command: cd lambda && npm install
+      - run:
+          name: Run Tests
+          command: cd lambda && npm test    
